@@ -1,11 +1,13 @@
-
-
+import { AiOutlineShoppingCart } from "react-icons/ai";
 
 const CardWidget = () => {
     return (
         <div className="containerCart">
-            <AiOutlineShoppingCart />
-        </div>
+        <AiOutlineShoppingCart style={{
+            fontSize: "2rem",
+            color: "black"
+        }}/>
+    </div>
     )
 }
 

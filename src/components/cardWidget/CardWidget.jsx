@@ -1,13 +1,13 @@
 import "./CardWidget.css";
-import { MdRestaurantMenu } from "react-icons/md";
+import { GiSadCrab} from "react-icons/gi";
 
 
 const CardWidget = () => {
     return (
-        <div className="containerCart">
-            <MdRestaurantMenu style={{
+        <div className="containerCrab">
+            <GiSadCrab style={{
                 fontSize: "2rem",
-                color: "White"
+                color: "white",
             }} />
         </div>
     )

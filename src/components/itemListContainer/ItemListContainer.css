@@ -65,17 +65,8 @@
 .containerProducto {
     text-decoration: none;
     list-style: none;
-}
-
-.containerProducto {
     margin: 0;
     padding: 0;
-    align-content: center;
-    align-items: baseline;
-}
-
-.iconCart {
-    font-size: 3rem;
 }
 
 .containerVentas {
@@ -85,13 +76,25 @@
     list-style: none;
 }
 
-.containerVentas ul {
+.containerVentas ul{
+    padding: 0;
     list-style: none;
+
+}
+
+.containerMenu{
+    font-size: 2.5rem;
 }
 
 .cta {
     border: none;
     background: none;
+}
+
+.cta-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .cta span {

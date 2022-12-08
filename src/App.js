@@ -1,12 +1,13 @@
 import NavBar from "./components/navBar/NavBar"
 import ItemListContainer from "./components/itemListContainer/ItemListContainer";
+import CardWidget from "./components/cardWidget/CardWidget";
 
 function App () {
   return (
-    <h1>
+    <div>
       <NavBar />
       <ItemListContainer />
-    </h1>
+    </div>
   );
 }
 

@@ -1,6 +1,7 @@
 import "./NavBar.css";
 import "../cardWidget/./CardWidget";
-import { AiOutlineShoppingCart } from "react-icons/ai";
+import CardWidget from "../cardWidget/./CardWidget";
+
 
 
 const NavBar = () => {
@@ -18,7 +19,7 @@ const NavBar = () => {
                         <a class="navbar-brand" href="#">Restaurante el Cangrejo Feliz</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                             <div className="containerCart">
-                                <AiOutlineShoppingCart />
+                                <CardWidget />
                             </div>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">

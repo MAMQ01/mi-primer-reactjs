@@ -1,14 +1,15 @@
-import "./CardWidget.css"
-import { AiOutlineShoppingCart } from "react-icons/ai";
+import "./CardWidget.css";
+import { MdRestaurantMenu } from "react-icons/md";
+
 
 const CardWidget = () => {
     return (
         <div className="containerCart">
-        <AiOutlineShoppingCart style={{
-            fontSize: "2rem",
-            color: "black"
-        }}/>
-    </div>
+            <MdRestaurantMenu style={{
+                fontSize: "2rem",
+                color: "white"
+            }} />
+        </div>
     )
 }
 

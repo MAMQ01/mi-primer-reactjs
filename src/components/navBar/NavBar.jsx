@@ -1,12 +1,13 @@
 import "./NavBar.css";
+import "../cardWidget/./CardWidget";
 import { AiOutlineShoppingCart } from "react-icons/ai";
-import CardWidget from "../cardWidget/CardWidget";
+
 
 const NavBar = () => {
     return (
         <div>
             <div className="containerHeader container-fluid">
-                <nav class="navbar navbar-expand-lg bg-light">
+                <nav /* class="navbar navbar-expand-lg bg-light" */ class="navbar navbar-dark bg-dark">
                     <div class="container-fluid">
                         <div>
                             <img
@@ -45,12 +46,6 @@ const NavBar = () => {
                         </div>
                     </div>
                 </nav>
-            </div>
-            <div className="containerBienvenida">
-                <button data-text="Awesome" class="button">
-                    <span class="actual-text">&nbsp;Bienvenido&nbsp;</span>
-                    <span class="hover-text" aria-hidden="true">&nbsp;Bienvenido&nbsp;</span>
-                </button>
             </div>
         </div>
     );

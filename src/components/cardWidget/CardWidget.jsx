@@ -1,3 +1,4 @@
+import "./CardWidget.css"
 import { AiOutlineShoppingCart } from "react-icons/ai";
 
 const CardWidget = () => {

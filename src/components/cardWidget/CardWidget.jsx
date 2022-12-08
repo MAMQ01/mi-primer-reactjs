@@ -7,7 +7,7 @@ const CardWidget = () => {
         <div className="containerCart">
             <MdRestaurantMenu style={{
                 fontSize: "2rem",
-                color: "white"
+                color: "White"
             }} />
         </div>
     )

@@ -1,6 +1,5 @@
-import "../cardWidget/./CardWidget";
 import CardWidget from "../cardWidget/./CardWidget";
-
+import "./NavBar.scss"
 
 const NavBar = () => {
     return (

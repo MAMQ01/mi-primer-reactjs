@@ -1,21 +1,19 @@
 import { MdOutlineRestaurantMenu } from "react-icons/md";
-import "./ItemListContainer.css";
+import "./ItemListContainer.scss";
 
 
 const ItemListContainer = ({ greeting }) => {
   return (
     <div>
-      <div className="containerBienvenida container fluid">
+      <div className="containerBienvenida container-fluid">
         <button data-text="Awesome" class="button">
           <span class="actual-text">&nbsp;Bienvenido&nbsp;</span>
           <span class="hover-text" aria-hidden="true">&nbsp;Bienvenido&nbsp;</span>
         </button>
       </div>
-      <div>
-        <ul className="containerProducto">
-          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet magni impedit nam sed cumque a officiis explicabo sit fugiat cum! Veniam officia adipisci fugit deleniti id numquam quam! Deleniti, voluptates.</li>
-          <li>Hola crayola</li>
-        </ul>
+      <div className="containerProducto">
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet magni impedit nam sed cumque a officiis explicabo sit fugiat cum! Veniam officia adipisci fugit deleniti id numquam quam! Deleniti, voluptates.</li>
+        <li>Hola crayola</li>
       </div>
       <div className="cta-container">
         <button class="cta">
@@ -25,7 +23,8 @@ const ItemListContainer = ({ greeting }) => {
           </svg>
         </button>
         <div className="containerMenu">
-          <MdOutlineRestaurantMenu />
+          <MdOutlineRestaurantMenu style={{color: "red"}} />
+          <h3>3</h3>
         </div>
       </div>
     </div>

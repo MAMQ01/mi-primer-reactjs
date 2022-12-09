@@ -33,7 +33,7 @@
     --border-right: 6px;
     --text-stroke-color: rgba(0, 0, 0, 0.6);
     --animation-color: #37FF8B;
-    --fs-size: 2em;
+    --fs-size: 4em;
     letter-spacing: 3px;
     text-decoration: none;
     font-size: var(--fs-size);
@@ -53,7 +53,7 @@
     inset: 0;
     border-right: var(--border-right) solid var(--animation-color);
     overflow: hidden;
-    transition: 0.65s;
+    transition: 0.35s;
     -webkit-text-stroke: 1px var(--animation-color);
 }
 
@@ -69,12 +69,6 @@
     padding: 0;
 }
 
-.containerVentas {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    list-style: none;
-}
 
 .containerVentas ul{
     padding: 0;
@@ -93,7 +87,7 @@
 
 .cta-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100%;
 }
 
